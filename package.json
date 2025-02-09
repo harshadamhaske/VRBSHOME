@@ -1,0 +1,39 @@
+{
+    "name": "VRBSHome",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "react-native start",
+        "android": "react-native run-android",
+        "ios": "react-native run-ios",
+        "clean": "rm -rf node_modules package-lock.json && npm install",
+        "lint": "eslint . --fix"
+    },
+    "dependencies": {
+        "@react-native-async-storage/async-storage": "^2.1.1",
+        "@react-navigation/bottom-tabs": "^7.2.0",
+        "@react-navigation/native": "^7.0.14",
+        "@react-navigation/stack": "^7.1.1",
+        "@tensorflow-models/coco-ssd": "^2.2.3",
+        "@tensorflow/tfjs": "^4.22.0",
+        "react": "18.2.0",
+        "react-native": "0.77.0",
+        "react-native-gesture-handler": "^2.23.0",
+        "react-native-reanimated": "^3.16.7",
+        "react-native-safe-area-context": "^5.2.0",
+        "react-native-screens": "^4.6.0",
+        "react-native-tts": "^4.1.1",
+        "react-native-vision-camera": "^4.6.3"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.21.0",
+        "@babel/preset-env": "^7.21.0",
+        "@babel/preset-react": "^7.21.0",
+        "@react-native-community/cli": "latest",
+        "eslint": "^8.46.0",
+        "eslint-plugin-react": "^7.33.2",
+        "metro-config": "^0.81.1",
+        "metro-react-native-babel-preset": "^0.77.0",
+        "react-native-css-transformer": "^2.0.0"
+    }
+}
